@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 98%;
+
+  z-index: 5;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+
+  transition: all 0.4s;
+  transition-timing-function: ease-in;
+}
+
+.nav__icon {
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.nav__icon--user {
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.nav--black {
+  background-color: black;
+}
