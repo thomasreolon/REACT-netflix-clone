@@ -33,6 +33,11 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
   };
 
+  // mobile
+  if (!isLargeRow) {
+    isLargeRow = window.innerWidth < 700;
+  }
+
   return (
     <div className="row">
       <h2>{title}</h2>

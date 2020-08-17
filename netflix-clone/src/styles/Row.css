@@ -35,3 +35,9 @@
 .row__poster-large:hover {
   transform: scale(1.09);
 }
+
+@media (max-width: 700px) {
+  .row__poster-large {
+    max-height: 13rem;
+  }
+}
