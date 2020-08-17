@@ -25,3 +25,21 @@
 .nav--black {
   background-color: black;
 }
+
+@media (max-width: 700px) {
+  .nav {
+    width: 95%;
+  }
+
+  .nav__icon {
+    height: 2rem;
+    object-fit: contain;
+  }
+
+  .nav__icon--user {
+    margin-top: -0.4rem;
+    height: 2.5rem;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+}
